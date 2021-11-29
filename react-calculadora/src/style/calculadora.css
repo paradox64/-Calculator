@@ -1,0 +1,93 @@
+
+
+#calculadora-container{
+    border-radius: 5% 5% ;
+    overflow: hidden;
+    background-color: turquoise;
+    display: inline-block;
+    FLEX-DIRECTION:column;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    -webkit-box-shadow: 5px 5px 24px -4px #000000; 
+    box-shadow: 5px 5px 24px -4px #000000;
+}
+
+#buttons{
+    display: flex;
+    border: 0px;
+    align-items: stretch;
+    height:  200px;
+}
+
+button{
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 2px 1px 0 #7A7A7A;
+    color: #000000;
+    background: #b8b8b8;
+    border-color: transparent;
+    background-color: turquoise;
+    width: 100%;
+    font-size: 60px;
+}
+
+#inputNumber:hover{
+    
+    background:rgb(35, 139, 129);
+    color:hsl(0, 0%, 2%);
+  }
+
+button:hover{
+  
+    text-shadow: 4px 1px 0 #fffb00;
+  }
+
+
+h1{
+    width: 100%;
+    
+    border-radius: 5% 5% 0% 0%;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 4px 3px 0 #7A7A7A;
+    color: #000000;
+    background: #b8b8b8;
+    font-size: 40px;
+    align-content: center;
+    margin: 0px;
+    background-color: rgba(173, 173, 173, 0.411);
+}
+
+#inputNumber{
+ 
+    border:2px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 4px 3px 0 #7A7A7A;
+    color: #000000;
+    background: #b8b8b8;
+    border-color: transparent;
+    background-color: rgb(143, 214, 207);
+    font-size: 60px;
+}
+
+#button-sum{
+    background-color: rgb(105, 105, 173);
+}
+
+#button-div{
+    background-color: rgb(105, 173, 131);
+}
+
+#button-mult{
+    background-color: rgb(168, 173, 105);
+}
+
+#button-dec{
+    background-color: rgb(173, 105, 105);
+}
+
+#button-restart{
+    background-color: rgb(160, 129, 167);
+    font-family: 'Oswald', sans-serif;
+    justify-self: center;
+    height: 100px;
+}
